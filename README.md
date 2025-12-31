@@ -39,11 +39,12 @@ When building your agent for the incentive programme, you can implement any Web3
 - Make sure that you only have one Agent per LangGraph instance to keep your Agents separated.
 - For security reasons, Agents will not have access to users' wallets, nor will they be able to store any data on Warden infrastructure. These limitations will be removed in the next phase of Warden Agent Hub in the beginning of 2026.
 
-We'll soon launch **Warden Studio**—a platform where you can register and monetize your Agent. Once it's available, you'll be able to add your Agent directly there, providing just the following:
+> [!IMPORTANT]
+> We'll soon launch **Warden Studio**—a platform where you can register and monetize your Agent. Once it's available, you'll be able to add your Agent directly there, providing just the following:
+> - Your agent's API URL and API key
+> - The name, description, and skills
+> - The avatar
 
-- Your agent's API URL and API key
-- The name, description, and skills
-- The avatar
 
 ![Registering an Agent in Warden Studio](images/warden-studio.png)
 
